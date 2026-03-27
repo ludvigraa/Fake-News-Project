@@ -1,0 +1,16 @@
+# Large raw data files
+995,000_rows.csv
+
+# Large processed data files
+processed_data/fakenews_995k_processed.csv
+processed_data/fakenews_995k_train.csv
+processed_data/fakenews_995k_val.csv
+processed_data/fakenews_995k_test.csv
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
