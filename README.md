@@ -3,27 +3,6 @@
 ## Project Overview
 This project builds and evaluates fake news detection models using the FakeNewsCorpus (995,000 articles) and the LIAR dataset. It consists of four parts: preprocessing, a simple logistic regression model, an advanced SVM model, and cross-dataset evaluation.
 
-## Repository Structure
-
-```
-├── FakeNews_Part1_2.ipynb        # Part 1 preprocessing + Part 2 logistic regression model
-├── FakeNews_Part3.ipynb          # Part 3 advanced model (Linear SVM with TF-IDF)
-├── FakeNews_Part4.ipynb          # Part 4 evaluation on FakeNewsCorpus and LIAR
-├── LIAR_Dataset/
-│   ├── train.tsv
-│   ├── valid.tsv
-│   └── test.tsv
-├── models/                       # Saved trained models (see below)
-│   ├── logistic_regression_pipeline.pkl
-│   ├── sgd_svm.pkl
-│   └── tfidf_vectorizer.pkl
-├── processed_data/               # Large intermediate files (see note below)
-│   ├── fakenews_995k_train.csv
-│   ├── fakenews_995k_val.csv
-│   ├── fakenews_995k_test.csv
-│   └── fakenews_995k_processed.csv
-└── README.md
-```
 
 ## Large Files Note
 The following files are **not included** in this repository due to size:
