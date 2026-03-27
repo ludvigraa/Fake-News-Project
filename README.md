@@ -18,10 +18,10 @@ pip install pandas numpy scikit-learn matplotlib joblib nltk
 ```
 
 ### Part 1 — Preprocessing
-Run all cells in `FakeNews_Part1_2.ipynb` up to and including the Task 4 split section. This requires `995,000_rows.csv` in the root directory.
+Run all cells in `FakeNews_Part1.ipynb`. This requires `995,000_rows.csv` in the root directory.
 
 ### Part 2 — Logistic Regression
-Continue in `FakeNews_Part1_2.ipynb` from the Part 2 section (cells 46 onwards). Skip the GridSearchCV cell — best parameters are already hardcoded in the fit and save cell.
+Continue in `FakeNews_Part2.ipynb`. Skip the GridSearchCV cell — best parameters are already hardcoded in the fit and save cell.
 
 ### Part 3 — Linear SVM
 Run all cells in `FakeNews_Part3.ipynb` in order. Hyperparameter tuning (Section 3) tests 16 combinations and may take 20–40 minutes.
